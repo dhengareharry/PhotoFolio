@@ -16,5 +16,25 @@ To get started with PhotoFolio, follow these steps:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/photo-folio.git
+   git clone https://github.com/dhengareharry/PhotoFolio
    cd photo-folio
+Install dependencies:  npm install
+
+Set up Firebase:
+
+Create a Firebase project and obtain your Firebase configuration.
+Replace the Firebase configuration in the src/Firebase.js file with your own configuration.
+Start the development server: npm start
+
+Usage
+Click on the "Add Album" button to create a new album.
+Click on an album to view and manage its images.
+Within the album, you can add, edit, and delete images. You can also search images by title.
+Click on an image to view it in full-screen gallery mode.
+
+#Technologies Used
+React: Frontend framework
+Firebase: Backend and database
+React Toastify: For displaying toast notifications
+Contributing
+Contributions are welcome! If you find a bug or have a feature request, please open an issue.
