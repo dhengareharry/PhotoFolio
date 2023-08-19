@@ -18,13 +18,14 @@ To get started with PhotoFolio, follow these steps:
    ```sh
    git clone https://github.com/dhengareharry/PhotoFolio
    cd photo-folio
-Install dependencies:  npm install
+2. Install dependencies:  npm install
 
-Set up Firebase:
-
+3. Set up Firebase:
 Create a Firebase project and obtain your Firebase configuration.
 Replace the Firebase configuration in the src/Firebase.js file with your own configuration.
-Start the development server: npm start
+
+4. Start the development server: npm start
+5. Open your browser and navigate to [http://localhost:3000](https://xjlm74-3000.csb.app/) to access the app.
 
 Usage
 Click on the "Add Album" button to create a new album.
